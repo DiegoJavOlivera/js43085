@@ -351,12 +351,12 @@ let resultado = sumar (5 ,8 );
 
 console.log(resultado);
 */
-
+/*
 function calculadora(primerNumero, segundoNumero, operacion){
     switch(operacion){
         case "+":
             return primerNumero + segundoNumero;
-            break;
+            break; 
         case "-":
             return primerNumero - segundoNumero;
             break;
@@ -373,5 +373,55 @@ function calculadora(primerNumero, segundoNumero, operacion){
 }
 
 console.log(calculadora(10,5,"-"));
+*/
+/*
+
+function numero(num){
+    return Math.round(num);
+}
+
+for(let i = 0 ; i < 5 ; i++){
+    let num = parseFloat(prompt("Solicito numero"));
+    let entero = numero(num);
+
+    alert("El entero mas cercano de " + num + " es " + entero);
+
+}
+
+*/
+
+
+/*
+
+actividad 2
+for(let i = 0; i < 4 ; i++){
+    alert("i no es mayor a 4");
+}
+
+alert("se cancela el ciclo i es mayor a 4");
+*/
+
+
+/*
+let alumnos = "";
+
+for(let i = 0 ; i < 10 ; i++){
+    alumnos += prompt("Ingresar el nombre de los alumnos")+ "\n";
+    alert(alumnos);
+}
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
 
 
